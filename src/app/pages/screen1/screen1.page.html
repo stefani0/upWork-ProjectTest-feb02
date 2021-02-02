@@ -1,0 +1,100 @@
+<ion-content no-border padding class="mainScreen">
+
+
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <button no-padding ion-button no-lines color="primary">
+        <ion-icon name="arrow-back"> Back
+        </ion-icon>
+      </button>
+    </ion-buttons>
+    <ion-title class="title">Information</ion-title>
+
+    <ion-buttons slot="end">
+      <button no-padding ion-button no-lines color="primary">
+        <ion-icon style="zoom:2.0; color: rgb(16, 123, 223);" name="sync-circle-outline"></ion-icon>
+      </button>
+    </ion-buttons>
+
+
+  </ion-toolbar>
+
+
+  <ion-grid class="gridImg">
+    <ion-row class="text-center">
+      <ion-col></ion-col>
+      <ion-col>
+        <ion-img width="120" height="100" src="../../../assets/img/profile.svg"></ion-img>
+      </ion-col>
+      <ion-col></ion-col>
+    </ion-row>
+    <ion-row class="text-center">
+      <ion-col class="col-2"></ion-col>
+      <ion-col class="col-8">
+        <h4 ion-text class="text-center">
+          Name Surname
+        </h4>
+        <ion-label>Information</ion-label>
+        <ion-label>22:22 21.12.2021</ion-label>
+      </ion-col>
+      <ion-col class="col-2"></ion-col>
+    </ion-row>
+  </ion-grid>
+
+
+  <ion-item class="light m-3">
+    <button class="m-3" ion-fab (click)="condividiFacebook(linkFb)">
+      <ion-icon class="itemStyle"  icon="../../../../assets/img/phone-call.svg"></ion-icon>
+    </button>
+    <button class="m-3" ion-fab (click)="condividiInstagram(linkInsta)">
+      <ion-icon class="itemStyle" icon="../../../../assets/img/fb.svg"></ion-icon>
+    </button>
+    <button class="m-3" ion-fab (click)="condividiTwitter(linkViber)">
+      <ion-icon class="itemStyle" icon="../../../../assets/img/email.svg"></ion-icon>
+    </button>
+    <button class="m-3" ion-fab (click)="condividiWhatsApp(linkWhatsup)">
+      <ion-icon class="itemStyle" icon="../../../../assets/img/apple.svg"></ion-icon>
+    </button>
+  </ion-item>
+
+
+  <ion-card>
+
+    <ion-card-header>
+
+
+      <ion-row class="text-start">
+        <ion-col size="8">
+          <ion-label><b>Content 1: </b></ion-label>
+          <ion-label class="showBlock">sub 2: </ion-label>
+        </ion-col>
+        <ion-col size="4">
+          <ion-label floating>Content 1: </ion-label>
+        </ion-col>
+      </ion-row>
+      <hr>
+
+      <ion-row class="text-start mt-2">
+        <ion-col size="8">
+          <ion-label><b>Content 2: </b> </ion-label>
+          <ion-label class="showBlock">sub 2: </ion-label>
+        </ion-col>
+        <ion-col size="3">
+          <ion-label floating>Content 2: </ion-label>
+        </ion-col>
+        <ion-col size="1">
+          <button class="btnArrow">
+            <ion-icon large item-end name="arrow-forward"></ion-icon>
+          </button>
+        </ion-col>
+      </ion-row>
+
+
+    </ion-card-header>
+  </ion-card>
+
+
+
+
+</ion-content>
+

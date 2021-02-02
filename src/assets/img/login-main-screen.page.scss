@@ -1,0 +1,52 @@
+
+
+  ion-content{
+    --background: #fff url('../../../../assets/imgs/auth/sfondo_home.png') no-repeat center center / cover;
+}
+
+.gridImg{
+  top: 20%;
+  position: relative;
+}
+
+.btnGoogle {
+  background: transparent;
+  width: 0px;
+}
+
+.h5 {
+  overflow: hidden;
+  text-align: center;
+  display: block;
+  color: #fff;
+  font-size: 13px;
+}
+
+.h5:before,
+.h5:after {
+  background-color: rgb(255, 255, 255);
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.h5:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+.h5:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+  .light {
+    --ion-item-background: transparent;
+}
+
+button{
+  background: transparent;
+}

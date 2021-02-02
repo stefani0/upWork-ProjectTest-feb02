@@ -1,0 +1,27 @@
+.light {
+    --ion-item-background: transparent;
+}
+
+.showBlock{
+    display: block;
+}
+
+button{
+    background: transparent;
+}
+
+.title{
+    color: rgb(16, 123, 223);
+}
+
+.mainScreen{
+    background: gray;
+}
+
+.itemStyle{
+    zoom:2.0;
+}
+
+ion-content{
+    --background: rgb(248, 248, 248)  no-repeat center center / cover;
+}
