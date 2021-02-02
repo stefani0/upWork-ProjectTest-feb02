@@ -31,30 +31,34 @@
     <ion-row class="text-center">
       <ion-col class="col-2"></ion-col>
       <ion-col class="col-8">
+        <div class="ion-text-center"> 
         <h4 ion-text class="text-center">
           Name Surname
         </h4>
         <ion-label>Information</ion-label>
         <ion-label>22:22 21.12.2021</ion-label>
+      </div>
       </ion-col>
       <ion-col class="col-2"></ion-col>
     </ion-row>
   </ion-grid>
 
 
-  <ion-item class="light m-3">
-    <button class="m-3" ion-fab (click)="condividiFacebook(linkFb)">
+  <ion-item class="light m-3 ion-text-center">
+  
+    <button class="btn" ion-fab (click)="condividiFacebook(linkFb)">
       <ion-icon class="itemStyle"  icon="../../../../assets/img/phone-call.svg"></ion-icon>
     </button>
-    <button class="m-3" ion-fab (click)="condividiInstagram(linkInsta)">
+    <button class="btn" ion-fab (click)="condividiInstagram(linkInsta)">
       <ion-icon class="itemStyle" icon="../../../../assets/img/fb.svg"></ion-icon>
     </button>
-    <button class="m-3" ion-fab (click)="condividiTwitter(linkViber)">
+    <button class="btn" ion-fab (click)="condividiTwitter(linkViber)">
       <ion-icon class="itemStyle" icon="../../../../assets/img/email.svg"></ion-icon>
     </button>
-    <button class="m-3" ion-fab (click)="condividiWhatsApp(linkWhatsup)">
+    <button class="btn" ion-fab (click)="condividiWhatsApp(linkWhatsup)">
       <ion-icon class="itemStyle" icon="../../../../assets/img/apple.svg"></ion-icon>
     </button>
+  
   </ion-item>
 
 
